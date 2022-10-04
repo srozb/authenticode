@@ -1,7 +1,6 @@
 import unittest
 import authenticode
 import authenticode/parser
-# import authenticode/hexprint
 import std/memfiles
 
 suite "x86dll":
