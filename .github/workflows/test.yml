@@ -1,5 +1,5 @@
 ---
-name: "test build"
+name: "run tests"
 
 on:
   pull_request:
@@ -15,4 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: jiro4989/setup-nim-action@v1
+      - if: ${{ matrix.os == "macos-latest" }}
+        run: brew install openssl@1.1
       - run: nimble test -y
