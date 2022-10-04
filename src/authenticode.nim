@@ -1,0 +1,2 @@
+import authenticode/parser
+export parser
