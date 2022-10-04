@@ -5,5 +5,5 @@ when defined(MacOsX):
   switch("dynlibOverride", "ssl")  # ??
 elif defined(Windows):
   switch("passl", "-LC:\\Program Files\\OpenSSL-Win64\\lib")
-  switch("cincludes", "C:\Program Files\\OpenSSL-Win64\\include")
+  switch("cincludes", "C:\\Program Files\\OpenSSL\\include")
 switch("passl", "-lcrypto")
