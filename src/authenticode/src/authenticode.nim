@@ -4,7 +4,7 @@ import std/time_t as std_time_t
 type time_t* = std_time_t.Time
 
 
-{.pragma: impauthenticodeHdr, header: "/Users/slawek/src/nim/authenticode-parser/src/authenticode/src/authenticode-parser/authenticode.h".}
+{.pragma: impauthenticodeHdr, header: "authenticode-parser/authenticode.h".}
 {.experimental: "codeReordering".}
 const
   AUTHENTICODE_VFY_VALID* = 0
