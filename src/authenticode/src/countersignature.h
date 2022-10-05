@@ -22,7 +22,7 @@ SOFTWARE.
 #ifndef AUTHENTICODE_PARSER_COUNTERSIGNATURE_H
 #define AUTHENTICODE_PARSER_COUNTERSIGNATURE_H
 
-#include <authenticode-parser/authenticode.h>
+#include "authenticode-parser/authenticode.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include "certificate.h"

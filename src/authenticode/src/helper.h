@@ -22,7 +22,7 @@ SOFTWARE.
 #ifndef AUTHENTICODE_PARSER_HELPER_H
 #define AUTHENTICODE_PARSER_HELPER_H
 
-#include <authenticode-parser/authenticode.h>
+#include "authenticode-parser/authenticode.h"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>

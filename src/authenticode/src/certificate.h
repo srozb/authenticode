@@ -22,7 +22,7 @@ SOFTWARE.
 #ifndef AUTHENTICODE_PARSER_CERTIFICATE_H
 #define AUTHENTICODE_PARSER_CERTIFICATE_H
 
-#include <authenticode-parser/authenticode.h>
+#include "authenticode-parser/authenticode.h"
 
 #include <openssl/x509.h>
 
